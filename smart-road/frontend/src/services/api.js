@@ -1,7 +1,8 @@
 // frontend/src/services/api.js
 // Centralized Axios-like fetch wrapper for all API calls
 
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+// Change this line:
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://smart-road-damage-system.onrender.com/api';
 
 /**
  * Core request helper — attaches auth token and handles errors uniformly.
